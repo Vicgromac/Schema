@@ -1,5 +1,8 @@
 {
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "notion_schema",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
     "firmenname": { "type": "string" },
     "ansprechpartner": { "type": "string" },
@@ -8,14 +11,10 @@
     "beschreibung": { "type": "string" },
     "branche": { "type": "string" },
     "standort": { "type": "string" },
-    "gründungsjahr": { "type": "string" },
-    "teamgröße": { "type": "string" },
+    "gruendungsjahr": { "type": "string" },
+    "teamgroesse": { "type": "string" },
     "finanzstatus": { "type": "string" },
-    "webseite": { "type": "string" }
+    "website": { "type": "string" }
   },
-  "required": [
-    "firmenname",
-    "ansprechpartner",
-    "email"
-  ]
+  "required": ["firmenname"]
 }
