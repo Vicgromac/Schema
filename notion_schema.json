@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "properties": {
+    "firmenname": { "type": "string" },
+    "ansprechpartner": { "type": "string" },
+    "email": { "type": "string" },
+    "telefon": { "type": "string" },
+    "beschreibung": { "type": "string" },
+    "branche": { "type": "string" },
+    "standort": { "type": "string" },
+    "gründungsjahr": { "type": "string" },
+    "teamgröße": { "type": "string" },
+    "finanzstatus": { "type": "string" },
+    "webseite": { "type": "string" }
+  },
+  "required": [
+    "firmenname",
+    "ansprechpartner",
+    "email"
+  ]
+}
